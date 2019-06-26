@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: green;
+}
+.Emptyspace{
+  background-color: lime;
+}
+.navBar {
+  height: 50px;
+  width: 180px;
+  position: fixed;
+  background-color: rgba(233, 207, 207, 0.0);
+  padding-top: 1%;
+  text-align: end;
+ }
+ .footer {
+  height: 50px;
+  width: 100%;
+  color: rgb(141, 16, 16);
+  background-color: #555;
+  position: fixed;
+  bottom: 0px;
+} 
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+}
+.home{
+  background-color: aqua;
+  height: 40px;
+}
+.gallery{
+  background-color: royalblue;
+  height: 40px;
+}
+.contact{
+  background-color: lime;
+}
+.catAnim {
+  background: url("./images/cat1.png") no-repeat;
+  height: 100vh;
+  display: flex;
+  border: 10px solid green;
+  border-radius: 50% 25% 50% 25%;
+   
+}
+.catAnim:hover {
+  background: url("./images/cat2.png") no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

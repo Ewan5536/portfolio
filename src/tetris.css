@@ -1,0 +1,22 @@
+body {
+    text-align:center;
+    display: block;
+   
+}
+html {
+    display: block;
+    background-color: black;
+}
+canvas {
+    border:solid .2em #690;
+}
+.game {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+#score{
+    font-size: x-large;
+    font-weight: bolder;
+}
