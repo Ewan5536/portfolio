@@ -54,8 +54,8 @@ img {
 .catAnim:hover {
   background: url("./images/cat2.png") no-repeat;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 700px) {
+  .tetris {
+    display: none ;
   }
 }

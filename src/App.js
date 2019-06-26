@@ -14,9 +14,9 @@ function App() {
       <div className="footer">
         <h1>Welcome to my profile</h1>
       </div>
-      <h1>My name Ewan Thomas</h1>
+      <h1>My name? Ewan Thomas</h1>
       <div className="Emptyspace">
-        <h2>this is an unfinished pratice example</h2>
+        <h2>this is a practice example in development</h2>
       </div>
       {/*cat animation*/}
       <div>
@@ -27,16 +27,20 @@ function App() {
         <h3>some text here to display my bio</h3>
       </div>
       <div className="gallery">
-        <h3>some text to express my skills</h3>
+        <h3>some text here to express my skills</h3>
       </div>
       <div className="contact">
-        <h3>Contact me via "linkedin" 
+        <h3>Contact me via linkedin 
           <a href="https://www.linkedin.com/in/ewan-thomas-9a00974a/">
-            <i>Ewan Thomas</i>
+            <i> (Ewan Thomas)</i>
+            
           </a>
         </h3>
       </div>
-      <Tetris></Tetris>
+      <br/>
+      <div className='tetris'>
+        <Tetris></Tetris>
+      </div>
     </div>
 
   );
