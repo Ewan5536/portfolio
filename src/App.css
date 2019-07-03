@@ -2,11 +2,14 @@
   text-align: center;
   background-color: white;
 }
-h1, h2 {
-  left:180px;
+
+.header {
+  position: relative;
+  left: 180px;
+  padding-right: 180px;
 }
 .Emptyspace{
-  background-color: rgb(240, 248, 240);
+  background-color: white;
 }
 .navBar {
   width: 180px;
@@ -40,12 +43,12 @@ img {
   background: url("./images/cat1.png") no-repeat;
   height: 100vh;
   display: flex;
-  /* border: 10px solid rgb(173, 175, 173); */
   border-radius: 50% 25% 50% 25%;
-   
+  background-size: 85% 
 }
 .catAnim:hover {
   background: url("./images/cat2.png") no-repeat;
+  background-size: 85%;
 }
 @media only screen and (max-width: 700px) {
   .tetris {
