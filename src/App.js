@@ -28,10 +28,10 @@ function App() {
           <div className="catAnim" />
         </div>
         {/* link to other urls */}
-        <div id="Bio">
+        <div  className='textblock' id="Bio">
           <h3>some text here to display my bio</h3>
         </div>
-        <div id="Skill">
+        <div className='textblock' id="Skill">
           <h3>
             I have extensive knowledge of HTML, CSS, and JavaScript.
 <br />I previous projects and app’s I have used modern CSS frameworks

@@ -11,6 +11,11 @@
 .Emptyspace{
   background-color: rgba(255, 255, 255, 0.0) ;
 }
+.textblock{
+  height: 180px;
+  background-color: bisque;
+  margin: 10px
+}
 .navBar {
   width: 180px;
   position: fixed;
