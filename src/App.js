@@ -7,6 +7,11 @@ import KODFLIX from "./images/Untitled.png";
 import BILLCALCULATOR from "./images/Untitled1.png";
 import FLATPACKFORUM from "./images/Untitled2.png";
 
+
+import Clock from 'react-live-clock';
+ 
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -21,13 +26,13 @@ function App() {
           <Link to="/#Projects"><h4>Projects</h4></Link>
         </div>
         <div className="footer">
-          <h1><a href="mailto:mail@example.org">EMAIL ME TODAY!</a> </h1>
+          <h1><a href="mailto:mail@example.org">EMAIL ME TODAY!<br/>USA/Pacific <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} /> UK/GMT <Clock format={'HH:mm:ss'} ticking={true} timezone={'UK/GMT'} /></a> </h1>
         </div>
         <div className='header'>
           <h1>My name? Ewan Thomas</h1>
           <div className="Emptyspace">
             <h3>this is a practice example in development</h3>
-          </div>
+          </div> 
         </div>
         {/*cat animation*/}
         <div>
