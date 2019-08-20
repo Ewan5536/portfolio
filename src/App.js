@@ -9,7 +9,7 @@ import FLATPACKFORUM from "./images/Untitled2.png";
 
 
 import Clock from 'react-live-clock';
- 
+
 
 
 function App() {
@@ -17,33 +17,56 @@ function App() {
     <BrowserRouter>
       <div className="App">
         {/*nav bar */}
-              <div className="navBar">
+        <div className="navBar">
           <Link to
-          ="/#Contact"><h4>Contact</h4></Link>
+            ="/#Contact"><h4>Contact</h4></Link>
           <Link to="/#Bio"><h4>MyBio</h4></Link>
-          <Link 
-     to="/#Skill" ><h4>Skills</h4></Link>
+          <Link
+            to="/#Skill" ><h4>Skills</h4></Link>
           <Link to="/#Projects"><h4>Projects</h4></Link>
         </div>
         <div className="footer">
-          <h1><a href="mailto:mail@example.org">EMAIL ME TODAY!<br/>USA/Pacific <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} /> UK/GMT <Clock format={'HH:mm:ss'} ticking={true} timezone={'UK/GMT'} /></a> </h1>
+          <h1>
+            <a href="mailto:mail@example.org">
+              EMAIL ME TODAY!
+          <br />
+              USA/Pacific <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} /> - UK/GMT <Clock format={'HH:mm:ss'} ticking={true} timezone={'UK/GMT'} />
+            </a>
+          </h1>
         </div>
         <div className='header'>
           <h1>My name? Ewan Thomas</h1>
           <div className="Emptyspace">
             <h3>this is a practice example in development</h3>
-          </div> 
+          </div>
         </div>
         {/*cat animation*/}
         <div>
           <div className="catAnim" />
         </div>
         {/* link to other urls */}
-        <div className='textblock' id="Bio">
+        <div className='' id="Bio">
           <br />
+          <br /> 
           <br />
-          <br />
-          <h3><p>MyBio</p></h3><p>Junior developer, currently studying  Business Information Technology BSc at London Metropolitan University (LMU).</p>
+          <h3><p>MyBio</p></h3><p>Junior developer, currently studying  Business Information Technology BSc at London Metropolitan University (LMU).
+            
+            My hobbies outside of computing ,are: to keep fit and active, also keeping upto date with Global affairs. 
+          
+          Hello and thank you for viewing this profile. 
+
+An intelligent and diligent person who is soon to become an enthusiastic Business Information Technology graduate with experience of database design and development 
+
+using both SQL and Oracle (2yrs.), as well as other hard and soft skills in full stack development and Agile methodologies (2yrs). Now seeking to use these skills within a junior role or business environment.
+
+Previous roles include; telecommunications engineer and physical training instructor within the UK armed forces (10yrs), personal trainer at 'pure gym' Orpington, Kent, telephone engineer with Openreach, health and safety advisor,
+ 
+ and escalator technition. 
+
+Always quick to volunteer and assist in areas that I may add value. 
+
+Feel free to contact him with any opportunities or questions, and thank you again for viewing his profile. </p>
+        <p></p>
         </div>
         <div className='' id="Projects">
           <br />
@@ -62,7 +85,7 @@ function App() {
             <div className="pics"> <i><a href="https://github.com/Ewan5536/bill-calculator" target="_blank">BILL-CALCULATOR</a></i></div>
             <div className="pics"> <i><a href="https://github.com/Ewan5536/flat-pack-forum" target="_blank">FLAT-PACK-FORUM</a></i></div>
           </div>
-          <br/>
+          <br />
           <div>
             <div className="image-container" >
               <a href="https://kodflix-ewan5536.herokuapp.com/" target="_blank"><img src={KODFLIX} alt="kodflix App" /></a>
